@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tiles>
+    <!-- TODO: DeconstructionJob -->
+    <Tile type="Empty">
+        <Name>Empty</Name>
+        <Description>This is a empty tile.</Description>
+        <BaseMovementCost>1</BaseMovementCost>
+        <LinksToNeighbours>false</LinksToNeighbours>
+
+        <BuildingJob jobTime="0"></BuildingJob>
+    </Tile>
+
+    <Tile type="Floor">
+        <Name>Floor</Name>
+        <Description>This is a floor tile.</Description>
+        <BaseMovementCost>1</BaseMovementCost>
+        <LinksToNeighbours>false</LinksToNeighbours>
+
+        <BuildingJob jobTime="0.1"></BuildingJob>
+    </Tile>
+
+    <Tile type="Ladder">
+        <Name>Ladder</Name>
+        <Description>This is a ladder tile.</Description>
+        <BaseMovementCost>1.5</BaseMovementCost>
+        <LinksToNeighbours>false</LinksToNeighbours>
+
+        <CanPlaceHere functionName="CanBuildHere_Ladder"/>
+
+        <BuildingJob jobTime="0.5">
+            <Inventory type="Steel Plate" amount="1" />
+        </BuildingJob>
+    </Tile>
+</Tiles>

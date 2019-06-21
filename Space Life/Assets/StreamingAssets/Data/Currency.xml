@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Currencies>
+    <Currency Name="Deep Space Industries Tokens" ShortName="DSIT" />
+    <Currency Name="Inter-Galactic Credits" ShortName="ICB" />
+</Currencies>

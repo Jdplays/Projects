@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorldGenerator>
+    <Asteroid>
+        <NoiseScale>0.2</NoiseScale>
+        <NoiseThreshhold>0.75</NoiseThreshhold>
+        <ResourceChance>0.15</ResourceChance>
+        <Resources>
+            <Resource type="Raw Iron" maxStack="50" min="5" max="15" weightedChance="50" />
+            <Resource type="Ice" maxStack="10" min="5" max="10" weightedChance="15" />
+            <Resource type="Uranium" maxStack="20" min="5" max="15" weightedChance="35" />
+        </Resources>
+    </Asteroid>
+    <StartArea width="18" height="15" centerX="8" centerY="7">
+        <Tiles>
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+            0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+            1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+            0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+            0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+            0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
+        </Tiles>
+        <NestedObjects>
+            <NestedObject x="0" y="7" name="obj_SteelWall" />
+            <NestedObject x="1" y="8" name="obj_SteelWall" />
+            <NestedObject x="1" y="6" name="obj_SteelWall" />
+            <NestedObject x="2" y="9" name="obj_SteelWall" />
+            <NestedObject x="2" y="5" name="obj_SteelWall" />
+            <NestedObject x="3" y="9" name="obj_SteelWall" />
+            <NestedObject x="3" y="5" name="obj_SteelWall" />
+            <NestedObject x="4" y="9" name="obj_SteelWall" />
+            <NestedObject x="4" y="5" name="obj_SteelWall" />
+            <NestedObject x="5" y="9" name="obj_SteelWall" />
+            <NestedObject x="5" y="5" name="obj_SteelWall" />
+            <NestedObject x="6" y="10" name="obj_SteelWall" />
+            <NestedObject x="6" y="9" name="obj_SteelWall" />
+            <NestedObject x="6" y="8" name="obj_SteelWall" />
+            <NestedObject x="6" y="7" name="Door" />
+            <NestedObject x="6" y="6" name="obj_SteelWall" />
+            <NestedObject x="6" y="5" name="obj_SteelWall" />
+            <NestedObject x="6" y="4" name="obj_SteelWall" />
+            <NestedObject x="7" y="10" name="obj_SteelWall" />
+            <NestedObject x="7" y="4" name="obj_SteelWall" />
+            <NestedObject x="8" y="14" name="Airlock" />
+            <NestedObject x="8" y="10" name="Airlock" />
+            <NestedObject x="8" y="4" name="Airlock" />
+            <NestedObject x="8" y="0" name="Airlock" />
+            <NestedObject x="9"  y="10" name="obj_SteelWall" />
+            <NestedObject x="9"  y="4" name="obj_SteelWall" />
+            <NestedObject x="10"  y="13" name="obj_SteelWall" />
+            <NestedObject x="10"  y="11" name="obj_SteelWall" />
+            <NestedObject x="10"  y="10" name="obj_SteelWall" />
+            <NestedObject x="10"  y="9" name="obj_SteelWall" />
+            <NestedObject x="10"  y="8" name="obj_SteelWall" />
+            <NestedObject x="10"  y="7" name="Door" />
+            <NestedObject x="10"  y="6" name="obj_SteelWall" />
+            <NestedObject x="10"  y="5" name="obj_SteelWall" />
+            <NestedObject x="10"  y="4" name="obj_SteelWall" />
+            <NestedObject x="10"  y="3" name="obj_SteelWall" />
+            <NestedObject x="10"  y="1" name="obj_SteelWall" />
+            <NestedObject x="11"  y="14" name="obj_SteelWall" />
+            <NestedObject x="11"  y="11" name="obj_SteelWall" />
+            <NestedObject x="11"  y="3" name="obj_SteelWall" />
+            <NestedObject x="11"  y="0" name="obj_SteelWall" />
+            <NestedObject x="12"  y="14" name="obj_SteelWall" />
+            <NestedObject x="12"  y="11" name="obj_SteelWall" />
+            <NestedObject x="12"  y="3" name="obj_SteelWall" />
+            <NestedObject x="12"  y="0" name="obj_SteelWall" />
+            <NestedObject x="13"  y="14" name="obj_SteelWall" />
+            <NestedObject x="13"  y="11" name="obj_SteelWall" />
+            <NestedObject x="13"  y="3" name="obj_SteelWall" />
+            <NestedObject x="13"  y="0" name="obj_SteelWall" />
+            <NestedObject x="14"  y="14" name="obj_SteelWall" />
+            <NestedObject x="14"  y="11" name="obj_SteelWall" />
+            <NestedObject x="14"  y="3" name="obj_SteelWall" />
+            <NestedObject x="14"  y="0" name="obj_SteelWall" />
+            <NestedObject x="15"  y="14" name="obj_SteelWall" />
+            <NestedObject x="15"  y="11" name="obj_SteelWall" />
+            <NestedObject x="15"  y="8" name="Stockpile" />
+            <NestedObject x="15"  y="7" name="Stockpile" />
+            <NestedObject x="15"  y="6" name="Stockpile" />
+            <NestedObject x="15"  y="3" name="obj_SteelWall" />
+            <NestedObject x="15"  y="0" name="obj_SteelWall" />
+            <NestedObject x="16"  y="14" name="obj_SteelWall" />
+            <NestedObject x="16"  y="13" name="obj_SteelWall" />
+            <NestedObject x="16"  y="12" name="obj_SteelWall" />
+            <NestedObject x="16"  y="10" name="obj_SteelWall" />
+            <NestedObject x="16"  y="8" name="Stockpile" />
+            <NestedObject x="16"  y="7" name="Stockpile" />
+            <NestedObject x="16"  y="6" name="Stockpile" />
+            <NestedObject x="16"  y="4" name="obj_SteelWall" />
+            <NestedObject x="16"  y="2" name="obj_SteelWall" />
+            <NestedObject x="16"  y="1" name="obj_SteelWall" />
+            <NestedObject x="16"  y="0" name="obj_SteelWall" />
+            <NestedObject x="17"  y="14" name="obj_SteelWall" />
+            <NestedObject x="17"  y="9" name="obj_SteelWall" />
+            <NestedObject x="17"  y="8" name="obj_SteelWall" />
+            <NestedObject x="17"  y="7" name="obj_SteelWall" />
+            <NestedObject x="17"  y="6" name="obj_SteelWall" />
+            <NestedObject x="17"  y="5" name="obj_SteelWall" />
+            <NestedObject x="17"  y="0" name="obj_SteelWall" />
+            <NestedObject x="6" y="11" name="obj_SteelWall" />
+            <NestedObject x="6" y="12" name="obj_SteelWall" />
+            <NestedObject x="6" y="13" name="obj_SteelWall" />
+            <NestedObject x="6" y="14" name="obj_SteelWall" />
+            <NestedObject x="7" y="14" name="obj_SteelWall" />
+            <NestedObject x="9"  y="14" name="obj_SteelWall" />
+            <NestedObject x="10"  y="14" name="obj_SteelWall" />
+            <NestedObject x="6" y="0" name="obj_SteelWall" />
+            <NestedObject x="6" y="1" name="obj_SteelWall" />
+            <NestedObject x="6" y="2" name="obj_SteelWall" />
+            <NestedObject x="6" y="3" name="obj_SteelWall" />
+            <NestedObject x="7" y="0" name="obj_SteelWall" />
+            <NestedObject x="9"  y="0" name="obj_SteelWall" />
+            <NestedObject x="10"  y="0" name="obj_SteelWall" />
+        </NestedObjects>
+    </StartArea>
+    <Wallet>
+       <Currency name="Deep Space Industries Tokens" startingBalance="150" />
+       <Currency name="Inter-Galactic Credits" startingBalance="0" />
+    </Wallet>
+</WorldGenerator>

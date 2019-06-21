@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Drones>
+    <Drone type="Mining Drone.">
+        <name>Miner 1.</name>
+        <Animations>
+            <Animation state="idle" fps="1" looping="false">
+	            <Frame name="BasicHaulShip" />
+	        </Animation>
+	        <Animation state="flying" fps="4" looping="true">
+	            <Frame name="BasicHaulShip_01" />
+	            <Frame name="BasicHaulShip_02" />
+            </Animation>
+        </Animations>
+    </Drone>
+</Drones>
